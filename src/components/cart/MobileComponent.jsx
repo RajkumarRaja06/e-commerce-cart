@@ -9,7 +9,6 @@ import { CartConsumer } from '../../context/cartContext';
 const MobileComponent = () => {
   const { cart, removeItem, increasedItem, decreasedItem, subTotal } =
     CartConsumer();
-  console.log(removeItem);
   return (
     <div className='mobile-cart'>
       {cart.map((item) => {

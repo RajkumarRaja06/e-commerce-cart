@@ -1,4 +1,4 @@
-import '../../styles/CartTotals.css';
+import '../../styles/cartTotals.css';
 import { MdShoppingCartCheckout } from 'react-icons/md';
 import { CartConsumer } from '../../context/cartContext';
 

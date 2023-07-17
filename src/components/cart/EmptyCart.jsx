@@ -1,4 +1,4 @@
-import '../../styles/CartTotals.css';
+import '../../styles/cartMobile.css';
 import { CgTrashEmpty } from 'react-icons/cg';
 import { CartConsumer } from '../../context/cartContext';
 
