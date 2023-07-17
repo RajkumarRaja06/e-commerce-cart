@@ -6,9 +6,9 @@ const CartContext = createContext();
 
 const initialData = {
   cart: data,
-  totalQuantity: 22,
-  totalPrice: 22,
-  subTotal: 55,
+  totalQuantity: 0,
+  totalPrice: 0,
+  subTotal: 0,
 };
 
 const CartProvider = ({ children }) => {
